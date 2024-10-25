@@ -20,7 +20,7 @@ const test = fetch(url,
         //test si le code http est 200
         else if (response.status === 200) {
             console.log('Add Tests success');
-        }
+        } 
         //tests si le code http est 405
         else if (response.status === 405) {
             console.log(data.Erreur);
